@@ -4,7 +4,7 @@ import UseContestDemo from './component/useContestDemo/index';
 import UseEffectDemo from './component/useEffectDemo';
 import UseMemoDemo from './component/useMemoDemo';
 import UseCallbackDemo from './component/useCallbackDemo';
-
+import UseIdDemo from './component/useIdDemo'
 export default function Tabs() {
   const tabs = [
     {
@@ -36,6 +36,12 @@ export default function Tabs() {
       name: 'useCallback',
       badge: 'Performance',
       content: <UseCallbackDemo />,
+    },
+    {
+      id: 'useUserId',
+      name: 'useUsedId',
+      badge: 'Performance',
+      content: <UseIdDemo />,
     },
   ];
 
